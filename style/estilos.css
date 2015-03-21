@@ -1,0 +1,74 @@
+* {
+   margin: 0; padding: 0;
+}
+body {
+   background: #008EAB;         
+}   
+.contenedor{
+   margin: auto;      
+   width: 960px;
+}
+.menu {
+   background: #fff;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
+   margin: 50px 110px;
+   overflow: hidden;
+   width: 740px;
+}
+.menu li {
+   border-left: 5px solid #999;
+   cursor: pointer;
+   float: left;
+   font-family: 'Aldrich', sans-serif;
+   list-style-type: none;   
+   padding: 10px;
+   width: 160px; 
+   -webkit-transition: all 0.3s ease-in;
+   -moz-transition: all 0.3s ease-in;
+   -o-transition: all 0.3s ease-in;
+}
+.menu li h2 {
+   font-weight: normal;
+   font-size: 18px;      
+}
+.menu li p{
+   font-size: 14px;
+   color: #999;
+   
+   -webkit-transition: all 0.1s ease-in;
+   -moz-transition: all 0.1s ease-in;
+   -o-transition: all 0.1s ease-in;
+}
+.menu li:hover {
+   background: #00AACC;
+   border-left: 5px solid #FF4E00;
+}
+.menu li:hover h2 {
+   color: #fff;
+}
+.menu li:hover p {
+   color: #fff;
+   padding-left: 10px;
+}
+.menu a{
+   text-decoration: none;
+   color: #999;
+}
+.articulo{
+   color: #000;
+   font-size: 16;
+   font-family: sans-serif;    
+   line-height: 22px;
+   text-align : justify;
+}
+.articulo li {
+    margin: 0px 20px;
+}
+.imagen{
+   float: right; margin: 5px;
+   padding:1px;
+   border:1px solid #021a40;
+}
+#logo {
+   float:left;  
+}
