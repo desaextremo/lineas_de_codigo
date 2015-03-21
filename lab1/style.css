@@ -1,0 +1,76 @@
+body {
+	background:#E7E7E7;
+}
+header {
+	margin: 0 auto;
+	padding: 5px 0 0 0;
+	float:left;
+}
+
+article{
+	background:#F3F3F3;
+	border:1px solid #F3F3F3;z
+	border-radius:10px;
+	clear:both;
+	display: block;
+	font-family: FiraSerif;
+	font-size: 16px;
+	height:auto;
+	margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 20px;
+	padding:2px 5px 5px 2px;
+	text-align: justify;
+	width:650px;
+}
+
+article h1{
+	font-family: Fira;
+	font-size: 20px;
+	font-weight:bold;
+	font-style:italic;
+	text-align: center;
+}
+
+img.centrada {
+	border: 1px dotted black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:5px 5px 5px 5px;    
+}
+
+@font-face{
+	font-family: 'FiraSerif';
+	src: url('../fonts/FiraSansOT-Light.otf');
+}
+
+@font-face{
+	font-family: 'Fira';
+	src: url('../fonts/FiraSansOT-LightItalic.otf');
+}
+
+#detalle{
+	border:15px;
+	float:left;
+	font-family: FiraSerif;
+	font-size: 30px;
+	font-style:italic;
+	font-weight:900;
+	padding: 10px 50px 10px 10px;
+	text-align: justify;
+	width:700px;
+}
+
+.borde_tipo1{
+	box-shadow: 5px 5px 5px black;
+}
+
+.borde_tipo2{
+	box-shadow: 0 0 5px 5px black;
+}
+
+.borde_tipo3{
+	box-shadow: 0 0 5px black;
+}
